@@ -1,1 +1,1 @@
-# flux architecture
+# Flux architecture
