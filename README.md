@@ -4,7 +4,7 @@
 
 ## Core Concepts
 
-1. Action
+1. Actions
 2. Reducers
 3. Store
 4. Data Flow
