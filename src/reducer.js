@@ -1,7 +1,7 @@
-const Actions = require('./actions.js');
-const Store = require('./store.js');
+// const Store = require('./store.js');
+// const Actions = require('./actions.js');
 
-const initialState = { count: 0 };
+// const initialState = { count: 0 };
 
 function updateState(state, action) {
     
@@ -15,12 +15,12 @@ function updateState(state, action) {
     }
 }
 
-const store = new Store(updateState, initialState);
+// const store = new Store(updateState, initialState);
 
-const unsbscribe = store.subscribe(() => console.log('State 1: ' + store.getState().count))
-store.subscribe(() => console.log('State 2: ' + store.getState().count))
+// const unsbscribe = store.subscribe(() => console.log('State 1: ' + store.getState().count));
+// store.subscribe(() => console.log('State 2: ' + store.getState().count));
 
-store.update(Actions.incrementAction);
-unsbscribe();
-store.update(Actions.decrementAction);
-store.update(Actions.emptyAction);
+// store.update(Actions.incrementAction);
+// unsbscribe();
+// store.update(Actions.decrementAction);
+// store.update(Actions.emptyAction);
