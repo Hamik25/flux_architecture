@@ -1,6 +1,6 @@
 # Flux Architecture
 
-<img src="docs/images/17638.jpg" width="100%" />
+<img src="docs/images/17638.png" width="100%" />
 
 ## Single Object & One Way Data Stream
 
