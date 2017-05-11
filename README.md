@@ -1,4 +1,4 @@
-# Flux Architecture
+# Life Cycle of Flux Architecture
 
 <img src="docs/images/17638.png" width="100%" />
 
